@@ -58,7 +58,9 @@ plugins:
 header_pages:
   - index.md
   - about.md
+  - projects.md
+  - contact.md
 
 style: light
 # listen_for_clients_preferred_style: true
-footer: 'Check out my projects at <a href="https://github.com/d-mckee">GitHub</a>'
+footer: 'check out my projects on <a href="https://github.com/d-mckee">GitHub</a>!'

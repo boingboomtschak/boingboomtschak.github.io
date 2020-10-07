@@ -1,6 +1,12 @@
 ---
 layout: home
-title: Home
+title: devon
 ---
 
-# Devon McKee
+# devon mckee
+
+[/about/](/about/)
+
+[/projects/](/projects/)
+
+[/contact/](/contact/)
