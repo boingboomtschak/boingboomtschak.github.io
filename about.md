@@ -19,3 +19,5 @@ avid user of command lines of all kinds, and switching between operating systems
 during free time, enjoys software development, cooking, gardening, being outdoors, audio production, gaming, and mechanical keyboards.  
 
 <br />
+
+technical interests
