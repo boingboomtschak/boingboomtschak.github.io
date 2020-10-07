@@ -12,12 +12,16 @@ current junior in the computer science B.S. program at Seattle U. interested in 
 
 <br />
 
-avid user of command lines of all kinds, and switching between operating systems often, appreciative of cross-platform solutions  
+avid user of command lines of all kinds, and switching between operating systems often, appreciative of cross-platform solutions to 
 
 <br />
 
 during free time, enjoys software development, cooking, gardening, being outdoors, audio production, gaming, and mechanical keyboards.  
 
-<br />
+# languages
 
-technical interests
+Python, C++, JavaScript, HTML, CSS, Rust, Java, C#, F#
+
+# technical frameworks
+
+jQuery, Flask, Node.js, Apache, Jekyll, Postman, plot.ly, Google Cloud (App Engine, Firestore), AWS (API Gateway, Lambda, DynamoDB), LaTeX

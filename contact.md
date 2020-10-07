@@ -4,6 +4,8 @@ title: -contact
 permalink: /contact/
 ---
 
+<a href="/">../</a>
+
 # contact me
 
 <div>
