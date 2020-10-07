@@ -7,3 +7,6 @@ permalink: /projects/
 <a href="/">../</a>
 
 # projects
+
+-----
+
