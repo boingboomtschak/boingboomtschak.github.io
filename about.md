@@ -12,7 +12,7 @@ current junior in the computer science B.S. program at Seattle U pursuing a mino
 
 <br />
 
-avid user of command lines of all kinds, and switching between operating systems often, appreciative of cross-platform solutions to 
+avid user of command lines of all kinds, and switching between operating systems often, appreciative of cross-platform development solutions.
 
 <br />
 
