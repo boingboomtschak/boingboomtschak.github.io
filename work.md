@@ -4,6 +4,8 @@ title: -work
 permalink: /work/
 ---
 
+<a href="/">../</a>
+
 # current work
 
 Automation/API Documentation Intern - Rhino Security Labs (01/20 - Present)
@@ -14,13 +16,13 @@ _Created cross-service automation tools to monitor and administrate company-wide
 
 Teaching Assistant - SeattleU Computer Science Department (01/20 - Present)
 
-_Assisted in administering course entitled "Data-Driven Programming," assignments written in Python._
+_Assisted in administering course entitled "Data-Driven Programming" for three quarters. Class assignments written in Python._
 
 # past work
 
 Development Intern - UCSF Resource for Biocomputing, Visualization, and Informatics (07/18-10/18)
 
-_Major development work on Adelson Mass Spec System (AMaSS), a web-based tool for analysis of mass spectrometry data.  Implementation with jQuery, Bootstrap, Plot.ly, and CGI scriptingusing Python.  Personal work on project includes greenfield work on backend infrastructure, project management,creating dashboard, and organizing code in team repository._
+_Major development work on Adelson Mass Spec System (AMaSS), a web-based tool for analysis of mass spectrometry data.  Implementation with jQuery, Bootstrap, Plot.ly, and CGI scripting using Python.  Personal work on project includes greenfield work on backend infrastructure, project management, creating dashboard, and organizing code in team repository._
 
 <br />
 
