@@ -9,4 +9,6 @@ title: devon
 
 [/projects/](/projects/)
 
+[/work/](/work/)
+
 [/contact/](/contact/)

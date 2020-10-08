@@ -8,7 +8,7 @@ permalink: /about/
 
 # about me
 
-current junior in the computer science B.S. program at Seattle U. interested in language design, metacognition in software development, building full-stack end-to-end systems, and the intersection of art, design, and development.  
+current junior in the computer science B.S. program at Seattle U pursuing a minor in studio art. interested in language design, metacognition in software development, building full-stack end-to-end systems, and the intersection of art, design, and development.  
 
 <br />
 

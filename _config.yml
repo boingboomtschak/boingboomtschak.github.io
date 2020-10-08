@@ -59,6 +59,7 @@ header_pages:
   - index.md
   - about.md
   - projects.md
+  - work.md
   - contact.md
 
 style: light

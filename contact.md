@@ -10,7 +10,7 @@ permalink: /contact/
 
 <div>
     <img src="/icons/linkedin.svg" width="14">
-    <a href="https://linkedin.com/me/devonmckee">linkedin</a>
+    <a href="https://linkedin.com/in/devonmckee">linkedin</a>
 </div>
 
 <div>
