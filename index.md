@@ -3,12 +3,12 @@ layout: default
 title: devon
 ---
 
-# devon mckee
+# devon mckee 
 
-[/about/](/about/)
+[/about/](/about/) - about me!
 
-[/projects/](/projects/)
+[/projects/](/projects/) - current and past projects
 
-[/work/](/work/)
+[/work/](/work/) - work experience
 
-[/contact/](/contact/)
+[/contact/](/contact/) - contact info
