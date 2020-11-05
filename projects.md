@@ -10,6 +10,15 @@ permalink: /projects/
 
 -----
 
+# sonora-rs
+
+<div>
+    <img src="/icons/github.svg" width="14">
+    <a href="https://github.com/d-mckee/sonora-rs">github link</a>
+</div>
+
+A custom Discord bot, written in Rust, using serenity-rs as a wrapper for the Discord API. Implements various Rust crates to add complex functionality to the bot with a focus on robust interpretation of user input and ease of use. Currently open source, may be deployed under an optional paywall in the near future.
+
 # heartware
 
 <div>
