@@ -8,6 +8,8 @@ permalink: /work/
 
 # current work
 
+-----
+
 Automation/API Documentation Intern - Rhino Security Labs (01/20 - Present)
 
 _Created cross-service automation tools to monitor and administrate company-wide resources and important business processes. Worked on custom productivity-oriented plugin for the Elgato Streamdeck, for internal use. Documentation of APIs for tools such as Postman, Confluence, DigitalOcean, Asana, Lucidchart, and Sharefile._
@@ -19,6 +21,8 @@ Teaching Assistant - SeattleU Computer Science Department (01/20 - Present)
 _Assisted in administering course entitled "Data-Driven Programming" for three quarters. Class assignments written in Python._
 
 # past work
+
+-----
 
 Development Intern - UCSF Resource for Biocomputing, Visualization, and Informatics (07/18-10/18)
 
