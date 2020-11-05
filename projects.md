@@ -19,14 +19,6 @@ permalink: /projects/
 
 A custom Discord bot, written in Rust, using serenity-rs as a wrapper for the Discord API. Implements various Rust crates to add complex functionality to the bot with a focus on robust interpretation of user input and ease of use. Currently open source, may be deployed under an optional paywall in the near future.
 
-# heartware
-
-<div>
-    <img src="/icons/github.svg" width="14">
-    <a href="https://github.com/charcalope/heartware">github link</a>
-</div>
-A project blending hardware and software to enable cashierless shopping and automation inventory tracking with a focus on ease of use. Uses localized pressure sensitive resistive mats along with NFC tags to track the removal of specific products by a customer. Uses a web interface built on top of Flask and SQLAlchemy to track products, as well as custom-built hardware interfacing with an Arduino board.
-
 # redistribution
 
 <div>
@@ -63,6 +55,14 @@ Experiment in creating a programming language in Rust, using the [Make a Languag
 # past projects
 
 -----
+
+# heartware
+
+<div>
+    <img src="/icons/github.svg" width="14">
+    <a href="https://github.com/charcalope/heartware">github link</a>
+</div>
+A project blending hardware and software to enable cashierless shopping and automation inventory tracking with a focus on ease of use. Uses localized pressure sensitive resistive mats along with NFC tags to track the removal of specific products by a customer. Uses a web interface built on top of Flask and SQLAlchemy to track products, as well as custom-built hardware interfacing with an Arduino board.
 
 # hyper-sonoran-gothic/hyper-sonoran-sunrise
 
