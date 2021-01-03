@@ -12,7 +12,7 @@ permalink: /work/
 
 Automation/API Documentation Intern - Rhino Security Labs (01/20 - Present)
 
-_Development, debugging, and designing of internal automation tools across various enterprise platforms and web technologies. Previous work on custom productivity-oriented plugin for the Elgato Streamdeck for internal use. Documentation of public APIs, using tools such as Postman, Confluence, DigitalOcean, Asana, Lucidchart, and Sharefile. Set up and troubleshot issues with office hardware._
+_Development, debugging, and designing of internal automation tools across various enterprise platforms and web technologies. Documentation and automation using public APIs, using tools such as Postman, Confluence, DigitalOcean, Asana, Lucidchart, and Sharefile. Previous work on custom productivity-oriented plugin for the Elgato Streamdeck for internal use. Set up and troubleshot issues with office hardware._
 
 <br />
 
