@@ -17,7 +17,7 @@ permalink: /projects/
     <a href="https://github.com/d-mckee/yttrium">github link</a>
 </div>
 
-A short webapp in initial stages, running on Flask, to generate generate Geocities-style pages in a configurably randomized manner using scraped web assets. 
+A short webapp in initial stages, running on Flask, to generate Geocities/[Neocities](https://neocities.org/browse)-style pages in a configurably randomized manner using scraped web assets. 
 
 # sonora-rs
 
