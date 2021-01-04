@@ -28,14 +28,15 @@ A short webapp in initial stages, running on Flask, to generate Geocities/[Neoci
 
 A custom Discord bot, written in Rust, using serenity-rs as a wrapper for the Discord API. Implements various Rust crates to add complex functionality to the bot with a focus on robust interpretation of user input and ease of use. Currently open source, may be deployed under an optional paywall in the near future.
 
-# thrush
+# graphite-py
 
 <div>
     <img src="/icons/github.svg" width="14">
-    <a href="https://github.com/d-mckee/thrush">github link</a>
+    <a href="https://github.com/d-mckee/graphite-py">github link</a>
 </div>
 
-Experiment in creating a programming language in Rust, using the [Make a Language](https://arzg.github.io/lang/) tutorial by [Aramis Razzaghipour](https://github.com/arzg).
+Experiment in creating a lightweight graphical tool in Python to "pixelate" an image into grayscale with variable block sizes and a discrete number of shades. Created in service of an art project.
+
 
 # backburner projects 
 
@@ -50,14 +51,14 @@ Experiment in creating a programming language in Rust, using the [Make a Languag
 
 A plugin for Spigot/Paperspigot Java Edition Minecraft servers to redistribute the resources of banned players to the community by way of plugin-managed item pools. Plugin handles serialization/deserialization of item pools, and manages multiple instances of pools in and out of memory, as well as ingame GUI tools to work with item pools directly.
 
-# graphite-py
+# thrush
 
 <div>
     <img src="/icons/github.svg" width="14">
-    <a href="https://github.com/d-mckee/graphite-py">github link</a>
+    <a href="https://github.com/d-mckee/thrush">github link</a>
 </div>
 
-Experiment in creating a lightweight graphical tool in Python to "pixelate" an image into grayscale with variable block sizes and a discrete number of shades. Created in service of an art project.
+Experiment in creating a programming language in Rust, using the [Make a Language](https://arzg.github.io/lang/) tutorial by [Aramis Razzaghipour](https://github.com/arzg).
 
 <img src="/assets/projects/graphite-py.png" width="600">
 
