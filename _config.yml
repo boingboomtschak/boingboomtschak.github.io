@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://d-mckee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: placeholder
-github_username:  d-mckee
+github_username: d-mckee
 
 # Build settings
 remote_theme: b2a3e8/jekyll-theme-console 
@@ -58,9 +58,13 @@ header_pages:
   - index.md
   - about.md
   - projects.md
+  - playground.md
   - work.md
   - contact.md
 
 style: light
 # listen_for_clients_preferred_style: true
 footer: 'check out my projects on <a href="https://github.com/d-mckee">GitHub</a>!'
+
+kramdown:
+  hard_wrap: true
