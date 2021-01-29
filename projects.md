@@ -10,15 +10,6 @@ permalink: /projects/
 
 -----
 
-# yttrium
-
-<div>
-    <img src="/icons/github.svg" width="14">
-    <a href="https://github.com/d-mckee/yttrium">github link</a>
-</div>
-
-A short webapp in initial stages, running on Flask, to generate Geocities/[Neocities](https://neocities.org/browse)-style pages in a configurably randomized manner using scraped web assets. 
-
 # sonora-rs
 
 <div>
@@ -51,6 +42,15 @@ Experiment in creating a lightweight graphical tool in Python to "pixelate" an i
 </div>
 
 A plugin for Spigot/Paperspigot Java Edition Minecraft servers to redistribute the resources of banned players to the community by way of plugin-managed item pools. Plugin handles serialization/deserialization of item pools, and manages multiple instances of pools in and out of memory, as well as ingame GUI tools to work with item pools directly.
+
+# yttrium
+
+<div>
+    <img src="/icons/github.svg" width="14">
+    <a href="https://github.com/d-mckee/yttrium">github link</a>
+</div>
+
+A short webapp in initial stages, running on Flask, to generate Geocities/[Neocities](https://neocities.org/browse)-style pages in a configurably randomized manner using scraped web assets. 
 
 # fieldfare
 
