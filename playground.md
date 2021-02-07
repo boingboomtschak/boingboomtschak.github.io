@@ -42,6 +42,11 @@ Left click and drag the mouse to play, mouse X is mapped to the oscillator frequ
 
 ## 3d bouncing balls
 
+<div>
+    <img src="/icons/p5-js.svg" width="14">
+    <a href="https://editor.p5js.org/d-mckee/sketches/rJCGaVcNw">sketch link</a>
+</div>
+
 An extension of a lab I wrote up and led for my ACM student chapter, the original document of which can be found here on [GitHub gists](https://gist.github.com/d-mckee/559f31624471ad30d15f0ffa16e39454). This version simulates the bouncing balls in 3D, with some playing around with ambient materials and ambient/point lights. 
 
 Left click and drag the mouse to spawn more balls, and the point light in the scene is centered on mouse X and mouse Y on the Z axis.
@@ -51,6 +56,11 @@ Left click and drag the mouse to spawn more balls, and the point light in the sc
 
 
 ## sphere details
+
+<div>
+    <img src="/icons/p5-js.svg" width="14">
+    <a href="https://editor.p5js.org/d-mckee/sketches/OI50H2gp4">sketch link</a>
+</div>
 
 A 10-minute experiment with sphere details in [p5.js](https://p5js.org/) - the slider controls the delay between changes, and the checkbox marked "Random" causes the sphere to change to random X and Y details.
 
