@@ -6,3 +6,4 @@ _site
 vendor
 start_local.sh
 Gemfile.lock
+*:Zone.Identifier
