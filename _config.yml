@@ -28,10 +28,11 @@ url: "https://devon.engineering" # the base hostname & protocol for your site, e
 github_username: d-mckee
 
 # Build settings
-remote_theme: b2a3e8/jekyll-theme-console 
-theme: jekyll-theme-console
+#remote_theme: b2a3e8/jekyll-theme-console 
+#theme: jekyll-theme-console
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
