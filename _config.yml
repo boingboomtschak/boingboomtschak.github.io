@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
    3rd year computer science major, studio art minor interested in full stack development
    and artistic applications of programming.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://d-mckee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://devon.engineering" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: placeholder
 github_username: d-mckee
 
