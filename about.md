@@ -16,8 +16,8 @@ During free time, enjoys software development, cooking, gardening, being outdoor
 
 # languages
 
-Python, C++, JavaScript, HTML, CSS, Rust, Java, C#, F#
+Python, C, C++, Rust, JavaScript, HTML, CSS, Java, C#, F#
 
 # technical frameworks
 
-jQuery, Flask, Node.js, p5.js, Apache, Jekyll, Postman, plot.ly, Google Cloud (App Engine, Firestore), AWS (API Gateway, Lambda, DynamoDB), LaTeX
+jQuery, Flask, Node.js, p5.js, Apache, Jekyll, Postman, Plot.ly, Socket.io, Google Cloud (App Engine, Firestore), AWS (API Gateway, Lambda, DynamoDB), LaTeX

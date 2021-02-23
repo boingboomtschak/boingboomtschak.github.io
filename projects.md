@@ -30,6 +30,16 @@ Experiment in creating a lightweight graphical tool in Python to "pixelate" an i
 
 <img src="/assets/projects/graphite-py.png" width="600">
 
+# qhess
+
+<div>
+	<img src="/icons/github.svg" width="14">
+	<a href="https://github.com/d-mckee/qhess">github link</a>
+</div>
+
+A twist on the classic game of chess, using probabilistic equations to determine where pieces will move, as well as including various rules inspired by concepts of quantum mechanics.
+
+
 # backburner projects 
 
 -----
