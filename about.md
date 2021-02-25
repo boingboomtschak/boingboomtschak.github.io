@@ -5,6 +5,7 @@ permalink: /about/
 ---
 
 <a href="/">../</a>
+<a href="https://resume.devon.engineering">resume/</a>
 
 # about me
 
@@ -14,7 +15,7 @@ Avid user of command lines of all kinds, and switching between operating systems
 
 During free time, enjoys software development, cooking, gardening, being outdoors, audio production, gaming, and mechanical keyboards.  
 
-# languages
+# commonly-used languages
 
 Python, C, C++, Rust, JavaScript, HTML, CSS, Java, C#, F#
 
