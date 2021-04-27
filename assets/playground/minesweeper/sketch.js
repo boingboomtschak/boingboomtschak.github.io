@@ -110,7 +110,7 @@ class Space {
 // ------------------------
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(600, 600);
   //createCanvas(windowWidth, windowHeight);
   for (let element of document.getElementsByClassName("p5Canvas")) {
     element.addEventListener("contextmenu", (e) => e.preventDefault());
