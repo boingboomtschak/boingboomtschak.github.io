@@ -6,7 +6,7 @@ let rand_check = false;
 let stroke_check = true;
 
 function setup() {
-  createCanvas(600, 400, WEBGL);
+  createCanvas(600,500, WEBGL);
   detailX = 1;
   detailY = 1;
   slider = createSlider(50, 500, 250);
