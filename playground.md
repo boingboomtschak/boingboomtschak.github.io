@@ -77,5 +77,16 @@ Another short experiment with modeling particles on a random walk. Particles "di
 
 <iframe src="/assets/playground/random-walk" width="100%" height="500px"></iframe>
 
+## minesweeper
+
+<div>
+    <img src="/icons/p5-js.svg" width="14">
+    <a href="https://editor.p5js.org/d-mckee/sketches/N5kzvjHFm">sketch link</a>
+</div>
+
+A simple implementation of minesweeper without any pre-rendered graphics (all the shapes are drawn by p5). Click to uncover squares, right click to flag squares, and click the reset button to reset the board.
+
+<iframe src="/assets/playground/minesweeper" width="100%" height="500px"></iframe>
+
 
 
