@@ -123,7 +123,7 @@ A multilevel warehouse pallet tracking tool with web interface using persistent 
 
 A web-based tool for receiving data from dust filtration sensors intended for use in space-suit technology. Project finalized in the NASA Space Apps Challenge 2019 with a team based in the US and India.
 
-<img style="border: 1px solid black;" src="/assets/projects/lunardust.png" width="600">
+<img src="/assets/projects/lunardust.png" width="600">
 
 # shelby
 

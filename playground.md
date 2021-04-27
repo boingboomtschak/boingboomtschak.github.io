@@ -66,3 +66,16 @@ A 10-minute experiment with sphere details in [p5.js](https://p5js.org/) - the s
 
 <iframe src="/assets/playground/sphere-details" width="100%" height="500px"></iframe>
 
+## random walk
+
+<div>
+    <img src="/icons/p5-js.svg" width="14">
+    <a href="https://editor.p5js.org/d-mckee/sketches/SXmsP2ZA-">sketch link</a>
+</div>
+
+Another short experiment with modeling particles on a random walk. Particles "die" when leaving the frame, and are culled from the list of particles. Use the mouse to click or drag to spawn new particles.
+
+<iframe src="/assets/playground/random-walk" width="100%" height="500px"></iframe>
+
+
+
