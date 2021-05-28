@@ -17,6 +17,10 @@ $ open work.md
 
 -----
 
+Research Assistant - Tab Lab SeattleU (04/21 - Present)
+
+_Facilitation of data collection, analysis, and extrapolation for research involving the classification of motion of the Jumping Bean Moth (Cydia Saltitans) in its larval stage. Use of Python, scikit-image, and OpenCV in order to track and record positions of multiple objects for further analysis using matplotlib. Faciliation of technical collaboration and availability of open-source resources using GitHub organization._
+
 Automation/API Documentation Intern - Rhino Security Labs (01/20 - Present)  
 
 _Development, debugging, and designing of internal automation tools across various enterprise platforms and web technologies. Documentation and automation using public APIs, using tools such as Postman, Confluence, DigitalOcean, Asana, Lucidchart, and Sharefile. Previous work on custom productivity-oriented plugin for the Elgato Streamdeck for internal use. Set up and troubleshot issues with office hardware._  
