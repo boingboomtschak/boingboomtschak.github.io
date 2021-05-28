@@ -4,7 +4,14 @@ title: -work
 permalink: /work/
 ---
 
+```
+$ ls
+```
 <a href="/">../</a>
+
+```
+$ open work.md
+```
 
 # current work
 

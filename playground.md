@@ -4,8 +4,14 @@ title: -playground
 permalink: /playground/
 ---
 
+```
+$ ls
+```
 <a href="/">../</a>
 
+```
+$ open playground.md
+```
 # playground
 
 A page for various embedded web experiments, written in various tools like p5.js.

@@ -4,7 +4,14 @@ title: -projects
 permalink: /projects/
 ---
 
+```
+$ ls
+```
 <a href="/">../</a>
+
+```
+$ open projects.md
+```
 
 # active projects
 
