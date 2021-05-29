@@ -4,8 +4,14 @@ title: -contact
 permalink: /contact/
 ---
 
+```
+$ ls
+```
 <a href="/">../</a>
 
+```
+$ open contact.md
+```
 # contact me
 
 <div>
