@@ -16,16 +16,16 @@ $ open aboutme.md
 
 # about me
 
-Current senior in the computer science B.S. program at Seattle U pursuing a minor in studio art. Interested in language design, metacognition in software development, building efficient systems to solve interdisciplinary problems, and the intersection of art, science, and development.    
+Current senior in the computer science B.S. program at Seattle U pursuing a minor in studio art. Interested in computer graphics, high-performance systems, research-driven development and the intersection of art, science, and programming.    
 
-Avid user of command lines of all kinds, and switching between operating systems often, appreciative of cross-platform development solutions.  
+Avid user of command lines of all kinds, and appreciative of cross-platform development solutions.   
 
-During free time, enjoys software development, cooking, gardening, being outdoors, audio production, gaming, and mechanical keyboards.  
+During free time, enjoys software development, cooking, gardening, visiting national parks, audio production, gaming, and mechanical keyboards.  
 
 # commonly-used languages
 
 Python, C, C++, Rust, JavaScript, HTML, CSS, Java, C#, F#
 
-# technical frameworks
+# technical frameworks and tools
 
-jQuery, Flask, Node.js, p5.js, OpenCV, Apache, Jekyll, Postman, Plot.ly, Socket.io, Google Cloud (App Engine, Firestore), AWS (API Gateway, Lambda, DynamoDB), LaTeX
+p5.js, OpenCV, jQuery, Postman, LaTeX, Flask, Node.js, Apache, Jekyll, Plot.ly, Socket.io, Google Cloud (App Engine, Firestore), AWS (API Gateway, Lambda, DynamoDB)

@@ -15,6 +15,11 @@ $ open contact.md
 # contact me
 
 <div>
+    <img src="/icons/email.svg" width="14">
+    <a href="mailto:devon@devon.engineering">email</a>
+</div>
+
+<div>
     <img src="/icons/linkedin.svg" width="14">
     <a href="https://linkedin.com/in/devonmckee">linkedin</a>
 </div>
