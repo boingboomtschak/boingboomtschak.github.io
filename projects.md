@@ -76,7 +76,7 @@ A short webapp in initial stages, running on Flask, to generate Geocities/[Neoci
     <a href="https://github.com/d-mckee/fieldfare">github link</a>
 </div>
 
-Experiment in creating a programming language in Rust, using the [Make a Language](https://arzg.github.io/lang/) tutorial by [Aramis Razzaghipour](https://github.com/arzg).
+Experiment in creating a programming language in Rust, using the [Make a Language](https://arzg.github.io/lang/) tutorial by [Luna Razzaghipour](https://github.com/arzg).
 
 
 # past projects
