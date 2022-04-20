@@ -24,8 +24,8 @@ During free time, enjoys software development, cooking, gardening, visiting nati
 
 # commonly-used languages
 
-C/++/#, Python, Rust, JavaScript, R, Java, F#
+C++, Python, Rust, C#, Java, JavaScript, R,  F#
 
 # technical frameworks and tools
 
-OpenCV, p5.js, jQuery, Postman, LaTeX, Flask, Node.js, Jekyll, Plot.ly, AWS (API Gateway, Lambda, DynamoDB)
+OpenGL, Vulkan, CUDA, OpenCV, p5.js, LaTeX

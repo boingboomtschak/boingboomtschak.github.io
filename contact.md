@@ -26,10 +26,10 @@ $ open contact.md
 
 <div>
     <img src="/icons/github.svg" width="14">
-    <a href="https://github.com/d-mckee">github</a>
+    <a href="https://github.com/boingboomtschak">github</a>
 </div>
 
 <div>
     <img src="/icons/instagram.svg" width="14">
-    <a href="https://instagram.com/d.m.c.k.e.e">instagram</a>
+    <a href="https://instagram.com/boing.boomtschak/">instagram</a>
 </div>
