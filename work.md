@@ -17,13 +17,15 @@ $ open work.md
 
 -----
 
-Research Assistant - Tab Lab SeattleU (04/21 - Present)
+Research Assistant - Tab Lab Seattle University (04/21 - Present)
 
 _Facilitation of data collection, analysis, and extrapolation for research involving the classification of motion of the Jumping Bean Moth (Cydia Saltitans) in its larval stage. Use of Python, scikit-image, and OpenCV in order to track and record positions of multiple objects for further analysis using matplotlib. Faciliation of technical collaboration and availability of open-source resources using GitHub organization._
 
-Teaching Assistant - SeattleU Computer Science Department (01/20 - Present)  
+Teaching Assistant - Seattle University Computer Science Department (01/20 - Present)  
 
-_Assisted in administering course entitled "Data-Driven Programming" for multiple quarters. Graded assignments written in Python and provided out of class help to students having issues with assignments._  
+_Assisted in administering course entitled "Data-Driven Programming" for multiple quarters. Graded assignments written in Python and provided out of class help to students._ 
+
+_Assisted in administering course entitled "Languages and Computation". Graded assignments written in Python and F# and provided out of class help to students._
 
 # past work
 
