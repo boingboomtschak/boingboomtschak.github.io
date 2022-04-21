@@ -16,7 +16,7 @@ $ ls
 
 
 ```
-$ cat readme.txt
+$ cat README.txt
 ```
 Hey! Welcome to my website!
 You can use the above links or the page list on the top bar to navigate to various parts of the site.
