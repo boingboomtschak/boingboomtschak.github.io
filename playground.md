@@ -84,20 +84,3 @@ Left click and drag the mouse to play, mouse X is mapped to the oscillator frequ
 Another short experiment with modeling particles on a random walk. Particles "die" when leaving the frame, and are culled from the list of particles. Use the mouse to click or drag to spawn new particles.
 
 <iframe src="/assets/playground/random-walk" width="100%" height="600px"></iframe>
-
-
-
-## sphere details
-
-<div>
-    <img src="/icons/p5-js.svg" width="14">
-    <a href="https://editor.p5js.org/d-mckee/sketches/OI50H2gp4">sketch link</a>
-</div>
-
-A 10-minute experiment with sphere details in [p5.js](https://p5js.org/) - the slider controls the delay between changes, and the checkbox marked "Random" causes the sphere to change to random X and Y details.
-
-<iframe src="/assets/playground/sphere-details" width="100%" height="600px"></iframe>
-
-
-
-
