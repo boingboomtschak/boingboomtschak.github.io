@@ -1,0 +1,11 @@
+.ui-accordion-header { font-family: 'Source Code Pro', monospace; font-size: 12.5px; margin: 0px; margin-top: 22px; font-weight: bold; color: var(--text-color); background-color: #ffffff; }
+.ui-accordion-content > p { font-family: 'Source Code Pro', monospace; background-color: var(--background-color); margin: 0 auto; padding: 0; font-size: 12.5px; color: var(--text-color); text-align: left; line-height: 1.5 !important; }
+.ui-accordion-content > h1 { font-family: 'Source Code Pro', monospace; font-size: 12.5px; margin: 0px; margin-top: 22px; font-weight: bold; color: var(--text-color); }
+.ui-accordion-content > * > a { font-family: 'Source Code Pro', monospace; font-size: 12.5px; text-decoration: underline; color: var(--link-color);}
+.ui-accordion-content > * > a:hover { color: var(--background-color); background-color: var(--base-color); }
+.ui-state-active { background-color: #f6f6f6; border-color: #CCCCCC; }
+.ui-state-active .ui-icon { background-image: url(images/ui-icons_444444_256x240.png); }
+
+img { image-rendering: optimizeSpeed; image-rendering: -moz-crisp-edges; image-rendering: -o-crisp-edges; image-rendering: -webkit-optimize-contrast; image-rendering: optimize-contrast; -ms-interpolation-mode: nearest-neighbor; }
+
+video { border: 1px solid #444444; margin-left: 20px; }
