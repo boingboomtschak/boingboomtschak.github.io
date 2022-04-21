@@ -16,20 +16,20 @@ $ open contact.md
 
 <div>
     <img src="/icons/email.svg" width="14">
-    <a href="mailto:devon@devon.engineering">email</a>
-</div>
-
-<div>
-    <img src="/icons/linkedin.svg" width="14">
-    <a href="https://linkedin.com/in/devonmckee">linkedin</a>
+    <a href="mailto:devon@devon.engineering">devon@devon.engineering</a>
 </div>
 
 <div>
     <img src="/icons/github.svg" width="14">
-    <a href="https://github.com/boingboomtschak">github</a>
+    <a href="https://github.com/boingboomtschak">boingboomtschak</a>
+</div>
+
+<div>
+    <img src="/icons/twitter.svg" width="14">
+    <a href="https://twitter.com/boingb00mtschak">boingb00mtschak</a>
 </div>
 
 <div>
     <img src="/icons/instagram.svg" width="14">
-    <a href="https://instagram.com/boing.boomtschak/">instagram</a>
+    <a href="https://instagram.com/boing.boomtschak/">boing.boomtschak</a>
 </div>
