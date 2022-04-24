@@ -1,10 +1,19 @@
+let PADDING = 10;
+
 let fileInput, thresholdTitle, thresholdSlider, generateButton, sortFnSelect, sortPassSelect, progressTitle;
 let srcImage = null;
 let dstImage = null;
 let threshold = null;
+let srcGfx, dstGfx;
+
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  srcGfx = createCanvas(windowWidth / 2 - 2, windowHeight - 2);
+  srcGfx.style('border', '1px solid black');
+  dstGfx = createGraphics(windowWidth / 2 - 2, windowHeight - 2);
+  dstGfx.show();
+  dstGfx.position(windowWidth / 2, 0);
+  dstGfx.style('border', '1px solid black');
   backgroundDiv = createDiv();
   backgroundDiv.style('background-color', '#FFFFFF');
   backgroundDiv.style('border', '1px solid #000000');
@@ -47,16 +56,49 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  background(200);
+  dstGfx.background(200);
   thresholdTitle.html(`Threshold: ${thresholdSlider.value()}`);
-  if(srcImage) progressTitle.html('Ready!');
-  if (srcImage) image(srcImage, 0, 0, width / 3, height);
-  if (threshold) image(threshold, (width / 3), 0, width / 3, height);
-  if (dstImage) image(dstImage, (width / 3) * 2, 0, width / 3, height);
+  if (srcImage) {
+    if (progressTitle.html() != 'Ready!') progressTitle.html('Ready!');
+    let dispWidth, dispHeight, hPadding, vPadding;
+    if (srcImage.width / srcImage.height > width / height) {
+      dispWidth = width - (PADDING * 2);
+      dispHeight = dispWidth * (srcImage.height / srcImage.width);
+      hPadding = PADDING;
+      vPadding = (height - dispHeight) / 2;
+    } else {
+      dispHeight = height - (PADDING * 2);
+      dispWidth = dispHeight * (srcImage.width / srcImage.height);
+      vPadding = PADDING;
+      hPadding = (width - dispWidth) / 2;
+    }
+    image(srcImage, hPadding, vPadding, dispWidth, dispHeight);
+  }
+  if (dstImage) {
+    let dispWidth, dispHeight, hPadding, vPadding;
+    if (dstImage.width / dstImage.height > width / height) {
+      dispWidth = width - (PADDING * 2);
+      dispHeight = dispWidth * (dstImage.height / dstImage.width);
+      hPadding = PADDING;
+      vPadding = (height - dispHeight) / 2;
+    } else {
+      dispHeight = height - (PADDING * 2);
+      dispWidth = dispHeight * (dstImage.width / dstImage.height);
+      vPadding = PADDING;
+      hPadding = (width - dispWidth) / 2;
+    }
+    dstGfx.image(dstImage, hPadding, vPadding, dispWidth, dispHeight);
+  }
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth / 2 - 2, windowHeight - 2); 
+  dstGfx.canvas.remove();
+  dstGfx = createGraphics(windowWidth / 2 - 2, windowHeight - 2);
+  dstGfx.show();
+  dstGfx.position(windowWidth / 2, 0);
+  dstGfx.style('border', '1px solid black');
 }
 
 function keyPressed() {
@@ -70,12 +112,18 @@ function keyPressed() {
   }
 }
 
+function mouseWheel(event) {
+  if (width < height) PADDING = constrain(PADDING + (event.delta / 10), -width, width / 2 - 2);
+  else PADDING = constrain(PADDING + (event.delta / 10), -height, height / 2 - 2);
+}
+
 function handleFileInput(file) {
   if (file.type === 'image') {
     let file = fileInput.elt.files[0];
     srcImage = loadImage(URL.createObjectURL(file), () => {
       dstImage = createImage(srcImage.width, srcImage.height);
       dstImage.copy(srcImage, 0, 0, srcImage.width, srcImage.height, 0, 0, srcImage.width, srcImage.height);
+      PADDING = 10;
       progressTitle.html('Working...');
       pixelsort(dstImage);
     });
