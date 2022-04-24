@@ -20,7 +20,7 @@ A page for various embedded web experiments, written in various tools like p5.js
 
 <div>
     <img src="/icons/p5-js.svg" width="14">
-    <a href="https://editor.p5js.org/d-mckee/sketches/iuQZEjEN2">sketch link</a>
+    <a href="https://editor.p5js.org/boingboomtschak/sketches/iuQZEjEN2">sketch link</a>
 </div>
 
 Boids! Based on the [original model by Craig Reynolds](https://www.red3d.com/cwr/boids/), written in the [p5.js editor](https://editor.p5js.org/), and inspired by the [boids found in Xen in the original Half Life](https://youtu.be/ucPLCf05VrI).  
@@ -35,7 +35,7 @@ Left click and drag the mouse to create new boids on the cursor!
 
 <div>
     <img src="/icons/p5-js.svg" width="14">
-    <a href="https://editor.p5js.org/d-mckee/sketches/rJCGaVcNw">sketch link</a>
+    <a href="https://editor.p5js.org/boingboomtschak/sketches/rJCGaVcNw">sketch link</a>
 </div>
 
 An extension of a lab I wrote up and led for my ACM student chapter, the original document of which can be found here on [GitHub gists](https://gist.github.com/d-mckee/559f31624471ad30d15f0ffa16e39454). This version simulates the bouncing balls in 3D, with some playing around with ambient materials and ambient/point lights. 
@@ -50,7 +50,7 @@ Left click and drag the mouse to spawn more balls, and the point light in the sc
 
 <div>
     <img src="/icons/p5-js.svg" width="14">
-    <a href="https://editor.p5js.org/d-mckee/sketches/N5kzvjHFm">sketch link</a>
+    <a href="https://editor.p5js.org/boingboomtschak/sketches/N5kzvjHFm">sketch link</a>
 </div>
 
 A simple implementation of minesweeper without any pre-rendered graphics (all the shapes are drawn by p5). Click to uncover squares, right click to flag squares, and click the reset button to reset the board.
@@ -63,7 +63,7 @@ A simple implementation of minesweeper without any pre-rendered graphics (all th
 
 <div>
     <img src="/icons/p5-js.svg" width="14">
-    <a href="https://editor.p5js.org/d-mckee/sketches/eZmVZvny3">sketch link</a>
+    <a href="https://editor.p5js.org/boingboomtschak/sketches/eZmVZvny3">sketch link</a>
 </div>
 
 A simple web "theremin" written in the [p5.js editor](https://editor.p5js.org/) and using the [p5.sound library](https://github.com/processing/p5.js-sound). Set up with a simple square wave oscillator, low pass filter, and reverb effect chained together.  
@@ -78,7 +78,7 @@ Left click and drag the mouse to play, mouse X is mapped to the oscillator frequ
 
 <div>
     <img src="/icons/p5-js.svg" width="14">
-    <a href="https://editor.p5js.org/d-mckee/sketches/SXmsP2ZA-">sketch link</a>
+    <a href="https://editor.p5js.org/boingboomtschak/sketches/SXmsP2ZA-">sketch link</a>
 </div>
 
 Another short experiment with modeling particles on a random walk. Particles "die" when leaving the frame, and are culled from the list of particles. Use the mouse to click or drag to spawn new particles.
