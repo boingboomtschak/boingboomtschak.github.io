@@ -4,7 +4,7 @@ let canvas;
 let gridSize = 4;
 let descDiv, infoDiv;
 let sizeRadio, generateButton, tilesetSelect;
-let score = 0, streak = 0; let highest_streak = 0;
+let score = 0, streak = 0; let highest_streak = 0, time = 0, best_time = -1;
 let grid = [];
 let tilesets = [];
 let cur_tileset;
@@ -54,12 +54,16 @@ function setup() {
   tilesetSelect.class('site-font');
   tilesetSelect.position((windowWidth - GAME_SIZE) / 2 + 419, 781);
   createGrid();
+  setInterval(() => { 
+    if (!gameFinished()) time += 0.1;  
+    else if (time < best_time || best_time == -1) best_time = time;
+  }, 100);
 }
 
 function draw() {
   background(220);
   drawGrid();
-  infoDiv.html(`<p><b>Score</b>: ${score} | <b>Streak</b>: ${streak} | <b>Highest Streak</b>: ${highest_streak}</p>`);
+  infoDiv.html(`<p><b>Score:</b> ${score} | <b>Streak:</b> ${streak} | <b>Highest Streak:</b> ${highest_streak} | <b>Timer:</b> ${time.toFixed(1)} | <b>Best time:</b> ${best_time >= 0 ? best_time.toFixed(1) : time.toFixed(1) }</p>`);
 }
 
 function mousePressed() {
@@ -192,14 +196,25 @@ function drawGrid() {
 }
 
 function generatePuzzle() {
+  let bt = best_time;
   gridSize = sizeRadio.value();
   grid = [];
   createGrid();
   selected = null;
-  score = 0; streak = 0; highest_streak = 0;
+  score = 0; streak = 0; highest_streak = 0; time = 0; best_time = bt;
 }
 
 function changeTileset() {
   cur_tileset = tilesets.find(ts => ts.name == tilesetSelect.value());
   generatePuzzle();
+}
+
+function gameFinished() {
+  for (let i = 0; i < gridSize; i++)
+    for (let j = 0; j < gridSize; j++)
+      if ((grid[i][j].a >= 0) || 
+          (grid[i][j].b >= 0) || 
+          (grid[i][j].c >= 0) || 
+          (grid[i][j].d >= 0)) return false; 
+  return true;
 }
