@@ -1,25 +1,19 @@
-const TILE_SIZE = 16;
 const GAME_SIZE = 600;
 
-let GRID_SIZE = 4;
-
 let canvas;
+let gridSize = 4;
 let descDiv, infoDiv;
-let sizeRadio, generateButton;
+let sizeRadio, generateButton, tilesetSelect;
 let score = 0, streak = 0; let highest_streak = 0;
 let grid = [];
-let A_img, B_img, C_img, D_img;
-let A_features = [];
-let B_features = [];
-let C_features = [];
-let D_features = [];
+let tilesets = [];
+let cur_tileset;
 let selected = null;
 
 function preload() {
-  A_img = loadImage('tilesets/a_features.png');
-  B_img = loadImage('tilesets/b_features.png');
-  C_img = loadImage('tilesets/c_features.png');
-  D_img = loadImage('tilesets/d_features.png');
+  loadImage('tilesets/16xPrimitives.png', (img) => tilesets.push(createTileset('Primitives', 16, '#FFFFFF', '#000000', img)));
+  loadImage('tilesets/32xCellular.png', (img) => tilesets.push(createTileset('Cellular', 32, '#363636', '#000000', img)));
+  loadImage('tilesets/128xHexadecimal.png', (img) => tilesets.push(createTileset('Hexadecimal', 128, '#000000', '#00FF00', img)));
 }
 
 function setup() {
@@ -53,10 +47,12 @@ function setup() {
   generateButton.class('site-font');
   generateButton.position((windowWidth - GAME_SIZE) / 2 + 520, 781);
   generateButton.mousePressed(generatePuzzle);
-  A_features = createTileset(A_img);
-  B_features = createTileset(B_img);
-  C_features = createTileset(C_img);
-  D_features = createTileset(D_img);
+  cur_tileset = tilesets[0];
+  tilesetSelect = createSelect();
+  tilesets.forEach((ts) => { tilesetSelect.option(ts.name) });
+  tilesetSelect.changed(changeTileset);
+  tilesetSelect.class('site-font');
+  tilesetSelect.position((windowWidth - GAME_SIZE) / 2 + 419, 781);
   createGrid();
 }
 
@@ -68,8 +64,8 @@ function draw() {
 
 function mousePressed() {
   if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
-    let i = Math.floor(mouseX / width * GRID_SIZE);
-    let j = Math.floor(mouseY / height * GRID_SIZE);
+    let i = Math.floor(mouseX / width * gridSize);
+    let j = Math.floor(mouseY / height * gridSize);
     if (selected == null && !grid[i][j].empty()) {
       selected = grid[i][j];
     } else {
@@ -90,14 +86,38 @@ function mousePressed() {
   }
 }
 
-function createTileset(tileImg) {
-  let tiles = [];
-  for (let x = 0; x < tileImg.width; x += TILE_SIZE) {
-    let tile = createImage(TILE_SIZE, TILE_SIZE);
-    tile.copy(tileImg, x, 0, TILE_SIZE, TILE_SIZE, 0, 0, TILE_SIZE, TILE_SIZE);
-    tiles.push(tile);
+function createTileset(tilesetName, tileSize, bgColor, borderColor, tilesetImg) {
+  let tileset = {
+    name : tilesetName,
+    size : tileSize,
+    bg : bgColor,
+    bd : borderColor,
+    a : [],
+    b : [],
+    c : [],
+    d : []
+  };
+  for (let x = 0; x < tilesetImg.width; x += tileSize) {
+    let tile = createImage(tileSize, tileSize);
+    tile.copy(tilesetImg, x, 0, tileSize, tileSize, 0, 0, tileSize, tileSize);
+    tileset.a.push(tile);
   }
-  return tiles;
+  for (let x = 0; x < tilesetImg.width; x += tileSize) {
+    let tile = createImage(tileSize, tileSize);
+    tile.copy(tilesetImg, x, tileSize, tileSize, tileSize, 0, 0, tileSize, tileSize);
+    tileset.b.push(tile);
+  }
+  for (let x = 0; x < tilesetImg.width; x += tileSize) {
+    let tile = createImage(tileSize, tileSize);
+    tile.copy(tilesetImg, x, 2 * tileSize, tileSize, tileSize, 0, 0, tileSize, tileSize);
+    tileset.c.push(tile);
+  }
+  for (let x = 0; x < tilesetImg.width; x += tileSize) {
+    let tile = createImage(tileSize, tileSize);
+    tile.copy(tilesetImg, x, 3 * tileSize, tileSize, tileSize, 0, 0, tileSize, tileSize);
+    tileset.d.push(tile);
+  }
+  return tileset;
 }
 
 class Tile {
@@ -118,16 +138,17 @@ class Tile {
   }
   draw() {
     push();
-    let tile_width = width / GRID_SIZE;
-    let tile_height = height / GRID_SIZE;
+    let tile_width = width / gridSize;
+    let tile_height = height / gridSize;
     rect(this.i * tile_width, this.j * tile_height, tile_width, tile_height);    
-    noStroke();
+    stroke(cur_tileset.bd);
     if (selected === this) { strokeWeight(3); stroke("#05F0FF"); }
+    fill(cur_tileset.bg);
     rect(this.i * tile_width, this.j * tile_height, tile_width, tile_height);
-    if (this.a >= 0) image(A_features[this.a], this.i * tile_width, this.j * tile_height, tile_width, tile_height);
-    if (this.b >= 0) image(B_features[this.b], this.i * tile_width, this.j * tile_height, tile_width, tile_height);
-    if (this.c >= 0) image(C_features[this.c], this.i * tile_width, this.j * tile_height, tile_width, tile_height);
-    if (this.d >= 0) image(D_features[this.d], this.i * tile_width, this.j * tile_height, tile_width, tile_height);
+    if (this.a >= 0) image(cur_tileset.a[this.a], this.i * tile_width, this.j * tile_height, tile_width, tile_height);
+    if (this.b >= 0) image(cur_tileset.b[this.b], this.i * tile_width, this.j * tile_height, tile_width, tile_height);
+    if (this.c >= 0) image(cur_tileset.c[this.c], this.i * tile_width, this.j * tile_height, tile_width, tile_height);
+    if (this.d >= 0) image(cur_tileset.d[this.d], this.i * tile_width, this.j * tile_height, tile_width, tile_height);
     //fill("#FF00FF"); text(`${this.a} ${this.b} ${this.c} ${this.d}`, this.i * tile_width, this.j * tile_height + 10)
     pop();
   }
@@ -136,19 +157,19 @@ class Tile {
 function createGrid() {
   // Pregenerate list of feature choices to ensure there are 2 of each chosen
   let a = []; let b = []; let c = []; let d = [];
-  for (let i = 0; i < (GRID_SIZE * GRID_SIZE); i += 2) {
-    let a_choice = Math.floor(random(0, A_features.length));
+  for (let i = 0; i < (gridSize * gridSize); i += 2) {
+    let a_choice = Math.floor(random(0, cur_tileset.a.length));
     a.push(a_choice); a.push(a_choice);
-    let b_choice = Math.floor(random(0, B_features.length));
+    let b_choice = Math.floor(random(0, cur_tileset.b.length));
     b.push(b_choice); b.push(b_choice);
-    let c_choice = Math.floor(random(0, C_features.length));
+    let c_choice = Math.floor(random(0, cur_tileset.c.length));
     c.push(c_choice); c.push(c_choice);
-    let d_choice = Math.floor(random(0, D_features.length));
+    let d_choice = Math.floor(random(0, cur_tileset.d.length));
     d.push(d_choice); d.push(d_choice);
   }
-  for (let i = 0; i < GRID_SIZE; i++) {
+  for (let i = 0; i < gridSize; i++) {
     let row = [];
-    for (let j = 0; j < GRID_SIZE; j++) {
+    for (let j = 0; j < gridSize; j++) {
       let t = new Tile();
       let a_i = Math.floor(random(0, a.length));
       let b_i = Math.floor(random(0, b.length));
@@ -165,15 +186,20 @@ function createGrid() {
 }
 
 function drawGrid() {
-  for (let i = 0; i < GRID_SIZE; i++) 
-    for (let j = 0; j < GRID_SIZE; j++) 
+  for (let i = 0; i < gridSize; i++) 
+    for (let j = 0; j < gridSize; j++) 
       grid[i][j].draw();
 }
 
 function generatePuzzle() {
-  GRID_SIZE = sizeRadio.value();
+  gridSize = sizeRadio.value();
   grid = [];
   createGrid();
   selected = null;
   score = 0; streak = 0; highest_streak = 0;
+}
+
+function changeTileset() {
+  cur_tileset = tilesets.find(ts => ts.name == tilesetSelect.value());
+  generatePuzzle();
 }

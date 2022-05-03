@@ -24,7 +24,7 @@ canvas {
   font-size: 12.5px;
 }
 
-button {
+select, button {
   border: 1px solid #000000;
   background-color: #FFFFFF;
 }
