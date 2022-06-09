@@ -15,7 +15,10 @@ let banners = [
     "computerupdated.png", "covid-19.gif", "dg.png",
     "help_im_online.gif", "htmltags.gif", "imaginaryland.gif",
     "nowhere.gif", "screw.gif", "self.gif",
-    "site_best_viewed_with_monitor.gif", "tidw.gif", "web3.gif"
+    "site_best_viewed_with_monitor.gif", "tidw.gif", "web3.gif",
+    "bookmark.gif", "drpepper.gif", "glitch.gif",
+    "hair.png", "internetprivacy.gif", "lainblinkie.jpg",
+    "minecraft.gif", "pepsi.gif"
 ];
 
 shuffle(banners);
