@@ -23,7 +23,7 @@ if (Webamp.browserIsSupported() && !navigator.userAgentData.mobile) {
         { metaData: { artist: "Nmesh", title: "Climbing the Corporate Ladder" }, url: "/assets/songs/climbing-the-corporate-ladder.mp3" },
     ];
 
-    let initialSkin = skins[Math.round(Math.random() * skins.length)];
+    let initialSkin = skins[Math.floor(Math.random() * skins.length)];
     if (excludedFromRandom.includes(initialSkin.name)) initialSkin = skins[0];
 
     const webamp = new Webamp({
