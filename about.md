@@ -15,7 +15,7 @@ $ open aboutme.md
 
 # about me
 
-Current senior in the computer science B.S. program at Seattle U pursuing a minor in studio art. Starting in the computer science M.S. program at UC Santa Cruz in the fall. Interested in computer graphics, high-performance systems, research-driven development and the intersection of art, science, and programming.    
+B.S. in computer science from Seattle University with a minor in studio art. Current graduate student in the computer science M.S. program at UC Santa Cruz. Interested in computer graphics, high-performance systems, research-driven development and the intersection of art, science, and programming.    
 
 Avid user of command lines of all kinds, and appreciative of cross-platform development solutions.   
 
@@ -23,8 +23,8 @@ During free time, enjoys software development, cooking, gardening, visiting nati
 
 # commonly-used languages
 
-C++, Python, Rust, C#, Java, JavaScript, R,  F#
+C++, Python, Rust, C, C#, Java, JavaScript, R,  F#
 
 # technical frameworks and tools
 
-OpenGL, Vulkan, CUDA, OpenCV, p5.js, LaTeX
+OpenGL, Vulkan, CUDA, OpenCL, OpenCV, p5.js, LaTeX

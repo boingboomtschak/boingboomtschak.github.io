@@ -19,17 +19,15 @@ $ open work.md
 
 Research Assistant - Tab Lab Seattle University (04/21 - Present)
 
-_Facilitation of data collection, analysis, and extrapolation for research involving the classification of motion of the Jumping Bean Moth (Cydia Saltitans) in its larval stage. Use of Python, scikit-image, and OpenCV in order to track and record positions of multiple objects for further analysis using matplotlib. Faciliation of technical collaboration and availability of open-source resources using GitHub organization._
-
-Teaching Assistant - Seattle University Computer Science Department (01/20 - Present)  
-
-_Assisted in administering course entitled "Data-Driven Programming" for multiple quarters. Graded assignments written in Python and provided out of class help to students._ 
-
-_Assisted in administering course entitled "Languages and Computation". Graded assignments written in Python and F# and provided out of class help to students._
+_Performed research around active particle systems through the lens of jumping bean moths. Used computer vision and image analysis techniques to collect, process, and analyze data. Wrote up research in publication, currently undergoing review. Facilitation of code organization with various lab projects through GitHub Organization._
 
 # past work
 
 -----
+
+Teaching Assistant - Seattle University Computer Science Department (01/20 - Present)  
+
+_Assisted in administering multiple computer science courses at various student levels. Graded assignments in various languages and provided significant out of class help to struggling students._
 
 Automation/API Documentation Intern - Rhino Security Labs (01/20 - 01/22)  
 
