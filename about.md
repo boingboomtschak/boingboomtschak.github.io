@@ -15,8 +15,8 @@ $ open aboutme.md
 
 # about me
 
-B.S. in computer science from Seattle University with a minor in studio art. Current graduate student in the computer science M.S. program at UC Santa Cruz. Interested in computer graphics, high-performance systems, research-driven development and the intersection of art, science, and programming.    
-
+Graduate student in the computer science M.S. program at UC Santa Cruz. Graduate of Seattle University with a B.S. in computer science with a minor in studio art. Interested in computer graphics, high-performance systems, research-driven development and the intersection of art, science, and programming.
+     
 Avid user of command lines of all kinds, and appreciative of cross-platform development solutions.   
 
 During free time, enjoys software development, cooking, gardening, visiting national parks, audio production, gaming, and mechanical keyboards, and whatever else I can get my hands on.

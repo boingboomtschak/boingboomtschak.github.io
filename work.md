@@ -17,15 +17,19 @@ $ open work.md
 
 -----
 
-Research Assistant - Tab Lab Seattle University (04/21 - Present)
+Teaching Assistant - University of California Santa Cruz (09/22 - Present)
 
-_Performed research around active particle systems through the lens of jumping bean moths. Used computer vision and image analysis techniques to collect, process, and analyze data. Wrote up research in publication, currently undergoing review. Facilitation of code organization with various lab projects through GitHub Organization._
+_Assisted in administering undergraduate course teaching computer science fundamentals in Python._
 
 # past work
 
 -----
 
-Teaching Assistant - Seattle University Computer Science Department (01/20 - Present)  
+Research Assistant - Tab Lab Seattle University (04/21 - 09/22)
+
+_Performed research around active particle systems through the lens of jumping bean moths. Used computer vision and image analysis techniques to collect, process, and analyze data. Wrote up research in publication, currently undergoing review. Facilitation of code organization with various lab projects through GitHub Organization._
+
+Teaching Assistant - Seattle University Computer Science Department (01/20 - 06/22)  
 
 _Assisted in administering multiple computer science courses at various student levels. Graded assignments in various languages and provided significant out of class help to struggling students._
 
