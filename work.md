@@ -10,7 +10,7 @@ $ ls
 <a href="/">../</a>
 
 ```
-$ open work.md
+$ cat work.txt
 ```
 
 # current work

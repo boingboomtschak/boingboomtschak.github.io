@@ -10,7 +10,7 @@ $ ls
 <a href="/">../</a>
 
 ```
-$ open projects.md
+$ cat projects.txt
 ```
 
 # projects

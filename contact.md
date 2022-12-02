@@ -10,7 +10,7 @@ $ ls
 <a href="/">../</a>
 
 ```
-$ open contact.md
+$ cat contact.txt
 ```
 # contact me
 

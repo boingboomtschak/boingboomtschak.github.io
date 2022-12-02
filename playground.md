@@ -10,7 +10,7 @@ $ ls
 <a href="/">../</a>
 
 ```
-$ open playground.md
+$ cat playground.txt
 ```
 # playground
 
