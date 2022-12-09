@@ -1,11 +1,10 @@
 ---
 title: "GPU Compute Benchmarking with WebGPU"
 layout: page
+classes: wide
 ---
 
 # GPU Compute Benchmarking with WebGPU
-
-### By Devon McKee
 
 ## Table of Contents
 
@@ -59,7 +58,9 @@ WebGL2 is a more recent incrementation of the API that moves the standard from O
 From these concerns comes WebGPU, a future JavaScript API hoping to provide modern hardware-accelerated graphics and compute capabilities to web applications. WebGPU's specification is currently being edited by developers at Google and Apple (and formerly Mozilla), and appears to be approaching a state of completion. Chrome includes an implementation of WebGPU that is very nearly up to date with the standard, and Safari and Firefox are continually working on their own implementations. Chrome's experimental implementation can be enabled with a flag for local testing (either in `about://flags#enable-unsafe-webgpu` or via command line with the `--enable-unsafe-webgpu` flag, though the former may have been removed recently), or enabled on a site if it [serves a valid origin trial token](https://developer.chrome.com/en/docs/web-platform/webgpu/#enabling-support-during-the-origin-trial-phase). The stable release for WebGPU is expected to happen sometime around Chrome 109, which according to Chrome's release schedule should be released Feb 1, 2023.
 
 <figure>
-    <a href="https://developer.chrome.com/en/docs/web-platform/webgpu/"><img src="images/webgpu-architecture.png", alt="WebGPU Architecture Diagram"></a>
+    <a href="https://developer.chrome.com/en/docs/web-platform/webgpu/">
+        <img src="images/webgpu-architecture.png" alt="WebGPU Architecture Diagram" style="width: 100%"/>
+    </a>
     <figcaption align="center">WebGPU Architecture Diagram, from Google Chrome's developer documentation</figcaption>
 </figure>
 
@@ -94,7 +95,9 @@ To approach the problem of GPU compute benchmarking on the web, this problem was
 Tekhne, from the ancient Greek personification of art, craft, and technical skill, is a transpiler that takes in CUDA source code and transpiles it down to WGSL. It parses CUDA using a grammar written in [Lark](https://github.com/lark-parser/lark), and generates WGSL with a custom code generator written with a recursive visitation pattern. The entire transpiler is a single Python script, which can be viewed [here](https://github.com/boingboomtschak/tekhne/blob/main/tekhne.py).
 
 <figure>
-    <a href="https://github.com/boingboomtschak/tekhne"><img src="images/tekhne-screenshot.png" alt="Screenshot of Tekhne transpiling a simple BFS kernel from Rodinia"/></a>
+    <a href="https://github.com/boingboomtschak/tekhne">
+        <img src="images/tekhne-screenshot.png" alt="Screenshot of Tekhne transpiling a simple BFS kernel from Rodinia" style="width: 100%"/>
+    </a>
     <figcaption align="center">Screenshot of Tekhne transpiling a simple BFS kernel from Rodinia</figcaption>
 </figure>
 
@@ -140,7 +143,9 @@ Kernel( Node* g_graph_nodes, int* g_graph_edges, bool* g_graph_mask, bool* g_upd
 ```
 
 <figure>
-    <a href="https://github.com/yuhc/gpu-rodinia/blob/master/cuda/bfs/kernel.cu"><img src="images/bfs-parse-tree.png" alt="Parse tree for Rodinia BFS kernel, produced by Lark"/></a>
+    <a href="https://github.com/yuhc/gpu-rodinia/blob/master/cuda/bfs/kernel.cu">
+        <img src="images/bfs-parse-tree.png" alt="Parse tree for Rodinia BFS kernel, produced by Lark" style="width: 100%"/>
+    </a>
     <figcaption align="center">Parse tree for Rodinia BFS kernel, produced by Lark</figcaption>
 </figure>
 
@@ -177,7 +182,9 @@ As of this report, the current iteration is able to reconstruct basic WGSL synta
 Hybris, from the ancient Greek spirit of outrageous behavior, is a simple web interface for running benchmarks converted to WebGPU. It is served statically, uses [Bulma](https://bulma.io/) for simple, clean styling, and is set up to execute benchmarks translated to WebGPU/WGSL from Rodinia CUDA implementations. The repository is currently hosted using GitHub Pages, and the source is accessible [here](https://github.com/boingboomtschak/hybris)
 
 <figure>
-    <a href="https://github.com/boingboomtschak/hybris"><img src="images/hybris-screenshot.png" alt="Screenshot of Hybris interface"></a>
+    <a href="https://github.com/boingboomtschak/hybris">
+        <img src="images/hybris-screenshot.png" alt="Screenshot of Hybris interface"/>
+    </a>
     <figcaption align="center">Screenshot of Hybris interface</figcaption>
 </figure>
 
@@ -206,7 +213,9 @@ CUDA exposes memory with a particular memory specifier, `__shared__`, that descr
 To examine the possibility of transpiling Rodinia benchmarks to WebGPU/WGSL, some work had to be done to manually analyze the features present in each Rodinia benchmark and determine the overall complexity of working with it. Linked to the below figure is a spreadsheet assessing each of Rodinia's 23 benchmarks, the expected difficulty in automatic transpilation of the kernel, and the expected difficulty in manual translation of the driver code. 
 
 <figure>
-    <a href="https://docs.google.com/spreadsheets/d/1h4gcyNU0LLn3zFcIawoxjTc8wtxS-tX2V_TuU3kwbsY/view"><img src="images/rodinia-transpilation-spreadsheet.png" alt="Screenshot of Rodinia Benchmark Transpilation Spreadsheet"/></a>
+    <a href="https://docs.google.com/spreadsheets/d/1h4gcyNU0LLn3zFcIawoxjTc8wtxS-tX2V_TuU3kwbsY/view">
+        <img src="images/rodinia-transpilation-spreadsheet.png" alt="Screenshot of Rodinia Benchmark Transpilation Spreadsheet" style="width: 100%"/>
+    </a>
     <figcaption align="center"><a href="https://docs.google.com/spreadsheets/d/1h4gcyNU0LLn3zFcIawoxjTc8wtxS-tX2V_TuU3kwbsY/view">Rodinia Benchmark Transpilation Spreadsheet</a></figcaption>
 </figure>
 
