@@ -183,7 +183,7 @@ Hybris, from the ancient Greek spirit of outrageous behavior, is a simple web in
 
 <figure>
     <a href="https://github.com/boingboomtschak/hybris">
-        <img src="images/hybris-screenshot.png" alt="Screenshot of Hybris interface"/>
+        <img src="images/hybris-screenshot.png" alt="Screenshot of Hybris interface" style="width: 100%"/>
     </a>
     <figcaption align="center">Screenshot of Hybris interface</figcaption>
 </figure>
