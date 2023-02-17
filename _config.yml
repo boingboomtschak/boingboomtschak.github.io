@@ -58,9 +58,10 @@ plugins:
 header_pages:
   - index.md
   - about.md
+  - publications.md
   - projects.md
-  - playground.md
   - work.md
+  - playground.md
   - contact.md
 
 style: light
