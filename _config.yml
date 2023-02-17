@@ -20,8 +20,8 @@
 
 title: "Devon McKee"
 description: >- # this means to ignore newlines until "baseurl:"
-   4th year computer science major, studio art minor interested in full stack development,
-   development metacognition, and intersections of programming and art.
+   CSE graduate student interested in GPU programming, computer graphics,
+   high-performance computing, research-driven development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://devon.engineering" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: placeholder
