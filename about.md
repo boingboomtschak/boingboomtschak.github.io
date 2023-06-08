@@ -14,8 +14,8 @@ $ cat about.txt
 ```
 
 # about me
-
-Graduate student in the computer science M.S. program at UC Santa Cruz. Graduate of Seattle University with a B.S. in computer science and a minor in studio art. Interested in GPU programming, computer graphics, GPGPU, heterogeneous systems, high-performance computing, and research-driven development.
+ 
+PhD student in the Computer Science and Engineering program at UC Santa Cruz doing research under Tyler Sorensen on fine-grained synchronization and dynamic work allocation on GPUs. Graduate of Seattle University with a B.S. in Computer Science and a minor in Studio Art. Interested in GPU programming, computer graphics, GPGPU, heterogeneous systems, high-performance computing, and research-driven development.
      
 Avid user of command lines of all kinds, and appreciative of cross-platform development solutions.   
 
