@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>epiphron-web</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script crossorigin="anonymous" src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    </head>
+    <body>
+        <section class="section">
+            <div class="content">
+                <h1 class="title is-2">epiphron-web</h1>
+                <button class="button" type="button" id="start-tests">Start tests</button>
+                <p id="num-threads"></p>
+                <div><u>Each thread accessing one atomic location, no padding:</u><p id="cpu-baseline">...</p></div>
+                <div><u>Every 4 threads accessing each location, no padding:</u><p id="cpu-contention">...</p></div>
+                <div><u>Each thread accessing one atomic location, padded to cache line size:</u><p id="cpu-padding">...</p></div>
+                <div>
+                    <u>Heatmap of sweep through thread contention and padding:</u>
+                    <progress class="progress" id="heatmap-progress" style="width:600px;display:none;"></progress>
+                    <div id="cpu-heatmap" style="width:600px;height:600px"></div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script type="text/javascript" src="main.js"></script>
+</html>
