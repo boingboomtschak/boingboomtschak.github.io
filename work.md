@@ -17,13 +17,17 @@ $ cat work.txt
 
 -----
 
-Teaching Assistant - University of California Santa Cruz (09/22 - Present)
+Graduate Student Researcher and Teaching Assistant - University of California Santa Cruz (09/22 - Present)
 
-_Assisted in administering undergraduate course teaching computer science fundamentals in Python._
+_Participated in and managed multiple research projects towards the purpose of publication relating to GPU synchronization, dynamic work allocation, and memory models. Assisted in administering undergraduate course teaching computer science fundamentals in Python._
 
 # past work
 
 -----
+
+GPU Software Intern - Apple (06/23 - 09/23)
+
+_Expanded critical features for internal performance tooling as part of Apple Silicon GPU Driver Performance team. Evaluated GPU workloads on emerging architectures and made notable contributions to preexisting work. Participated in cross-architectural heterogeneous performance investigations._
 
 Research Assistant - Tab Lab Seattle University (04/21 - 09/22)
 
