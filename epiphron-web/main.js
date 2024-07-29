@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         $('#start-tests').prop('disabled', true);
         $('#num-threads').text(`Detected ${navigator.hardwareConcurrency} logical threads on CPU.`);
         $('#cpu-baseline').text(`${parseFloat((await cpuAtomicTest(1, 1)).toFixed(2))} atomic ops/microsecond`);
-        $('#cpu-contention').text(`${parseFloat((await cpuAtomicTest(4, 1)).toFixed(2))} atomic ops/microsecond`);
+        $('#cpu-contention').text(`${parseFloat((await cpuAtomicTest(2, 1)).toFixed(2))} atomic ops/microsecond`);
         $('#cpu-padding').text(`${parseFloat((await cpuAtomicTest(1, 16)).toFixed(2))} atomic ops/microsecond`);
         await cpuAtomicSweep(navigator.hardwareConcurrency, 16);
     });
